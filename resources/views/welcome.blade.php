@@ -529,7 +529,7 @@ footer {
     </section>
 
     <section id="ozellikler">
-        <h2>Özellikler</h2>
+        <h2>الخصائص</h2>
         <div class="features-grid">
             <div class="feature-card">
                 <i class="fas fa-search"></i>
