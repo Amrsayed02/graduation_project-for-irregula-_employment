@@ -533,7 +533,7 @@ footer {
         <div class="features-grid">
             <div class="feature-card">
                 <i class="fas fa-search"></i>
-                <h3>Kolay Arama</h3>
+                <h3>البحث السريع</h3>
                 <p>تواصل مع فنيين متخصصين بسرعة وسهولة حسب حاجتك</p>
             </div>
             <div class="feature-card">
@@ -617,7 +617,7 @@ footer {
             </div>
 
             <div class="footer-section">
-                <h4>İletişim</h4>
+                <h4>التواصل</h4>
                 <ul class="footer-contact">
                     <li><i class="fas fa-envelope"></i> للتواصل معنا، ابعتلنا على الإيميل: amr666645@gmail.com</li>
                     <li><i class="fas fa-phone"></i> 01154189739</li>
