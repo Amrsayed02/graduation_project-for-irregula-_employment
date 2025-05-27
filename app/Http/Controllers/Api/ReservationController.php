@@ -95,8 +95,8 @@ class ReservationController extends Controller
 
             // Send notifications (in a separate try block so as not to affect the booking creation process)
             try {
-                Notification::send([$user], new UserMessage($messageFromAdminUser, 'New Reservation', $messageFromAdminUser, 'Yeni Rezervasyon', "user", ""));
-                Notification::send([$peer], new UserMessage($messageFromAdminVendor, 'New Booking Notification', $messageFromAdminVendor, 'Yeni Rezervasyon Bildirimi', "vendor", ""));
+                Notification::send([$user], new UserMessage($messageFromAdminUser, 'New Reservation', $messageFromAdminUser, 'حجز جديد', "user", ""));
+                Notification::send([$peer], new UserMessage($messageFromAdminVendor, 'New Booking Notification', $messageFromAdminVendor, 'تنبيه بحجز جديد', "vendor", ""));
 
                 if ($user->fcm) {
                     SendFCMNotificationJob::dispatch($user->fcm, 'New Reservation', $messageFromAdminUser);
