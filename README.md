@@ -45,6 +45,16 @@ A production-style backend system built with Laravel for managing irregular work
 
 ---
 
-## 🔗 API Sample
+## 🔗 API Examples
 
-### Register User
+### 🧾 Register
+
+POST /api/register
+
+Request Body:
+```json
+{
+  "name": "Amr",
+  "email": "amr@test.com",
+  "password": "123456"
+}
